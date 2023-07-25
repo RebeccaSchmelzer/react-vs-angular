@@ -3,7 +3,14 @@ import './Intro.css'
 
 const Intro = () => {
   return (
-    <div>React vs. Angular</div>
+
+
+    <header className="header">
+    <div className="profile">
+      <span className="profile-name">React vs. Angular</span>
+    </div>
+  </header>
+    
   )
 }
 
